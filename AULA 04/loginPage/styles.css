@@ -1,0 +1,69 @@
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+body{
+    background-color: #0f0c25;
+}
+
+.caixas{
+    color: white;
+}
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  
+}
+
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.entrar input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: aquamarine;
+    height: 30px;
+    width: 80px;
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+::placeholder{
+    color: black;
+}
